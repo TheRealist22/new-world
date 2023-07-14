@@ -26,7 +26,8 @@ jobs:
                 at: my_workspace
 
             - run: |
-                if [[ $(cat my_workspace/echo-output) == "Trying out my workspace" ]]; then echo "it worked";
+                if [[ $(cat my_workspace/echo-output) == "Trying out my workspace" ]]; 
+                then echo "it worked";
                 
 workflows:
     version: 2
